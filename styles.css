@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@1,500&family=Raleway:wght@100&family=Space+Mono:ital@1&display=swap');
+
+*{
+    box-sizing: border-box; /* so that the size of the elements determined by the padding and the margin as well as the actual size of the content */
+    font-family: Raleway;
+    color: #333;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+    border-bottom: 0.1em solid rgba(255, 255, 255, .3);
+}
+
+.main-nav li {
+    padding: 0 3%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3); 
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/HeaderBackground.jpg"); /* image bron= https://unsplash.com/photos/1rBg5YSi00c */
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 2.5em;
+}
+
+h1 { 
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: monospace;
+    font-weight: normal;
+    color: white;
+    padding-top: 0.6em;
+}
+
+
+main {
+    max-width: 40em;
+    margin: 0 auto;
+    padding: 1.5em;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/FooterBackground.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: white;
+    padding: .25em 0;
+}
+
+
+.artist-name { 
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: monospace;
+    font-weight: normal;
+    color: white;
+}
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+div ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+footer ul li {
+    padding: 0 .5em;
+}
+
+footer ul img {
+    width: 2em;
+    height: 2em;
+}
+
+.item {
+    margin: 1%;
+    
+}
+.painting { 
+    height: 13em;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+.paragraph-header {
+    font-family: monospace;
+    font-weight: normal;
+    color: #333;
+}
+
+.artist-image {
+    float: left;
+    width: 15em;
+    margin: 2em;
+    border-radius: 50%;
+}
+
+.footer-items {
+    max-width: 40em;
+    margin: 0 auto;
+}
