@@ -118,13 +118,13 @@ footer ul img {
 .painting { 
     height: 13em;
 }
-.gallery {
+main section div {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 } 
 
-.paragraph-header {
+main section h2 {
     font-family: monospace;
     font-weight: normal;
     color: #333;
@@ -137,7 +137,54 @@ footer ul img {
     border-radius: 50%;
 }
 
-.footer-items {
+footer section{
     max-width: 40em;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    padding-top: 2em;
+    width: 90%;
+    max-width: 40em;
+}
+
+main div {
+    margin-bottom: 3em;
+    position: relative;
+}
+
+input, textarea {
+    width: 100%;
+    min-width: 100%;
+    padding: 1em;
+    outline: none;
+    border: 0.1em solid #333;
+    font-size: 1.5em;
+}
+
+label {
+    height: 4em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 1em;
+    cursor: text;
+}
+
+button {
+    padding: 1em;
+    outline: none;
+    border: 0.1em solid #333;
+    width: 100%;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+    top: -2.5em;
+    font-size: 0.75em;
 }
