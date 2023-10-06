@@ -111,14 +111,14 @@ footer ul img {
     height: 2em;
 }
 
-.item {
+figure {
     margin: 1%;
     
 }
-.painting { 
+figure img { 
     height: 13em;
 }
-main section div {
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -133,8 +133,8 @@ main section h2 {
 .artist-image {
     float: left;
     width: 15em;
-    margin: 2em;
-    border-radius: 50%;
+    margin: 1.5em;
+    border-radius: 20%;
 }
 
 footer section{
