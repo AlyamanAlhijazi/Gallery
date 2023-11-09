@@ -152,11 +152,10 @@ form {
 
 main div {
     margin-bottom: 3em;
-    position: relative;
-}
+    position: relative; 
+} 
 
 input, textarea {
-    width: 100%;
     min-width: 100%;
     padding: 1em;
     outline: none;
